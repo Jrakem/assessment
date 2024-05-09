@@ -1,1 +1,13 @@
-this is an empty file
+#!/bin/bash
+read -p "enter the day in a week:" day
+case $day in
+"monday")echo yes its $day ;;
+"tuesday")echo yes its $day;;
+"wednesday")echo yes its $day;;
+"thursday")echo yes its $day;;
+"friday")echo yes its $day;;
+"saturday")echo yes its $day;;
+"sunday")echo yes its $day;;
+else
+echo invalid day
+fi
